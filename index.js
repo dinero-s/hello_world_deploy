@@ -6,10 +6,6 @@ app.get('/', (req, res) => {
   res.status(200).json({ message: 'Hello from the root route!' });
 })
 
-app.get('/helloWorld', (req, res) => {
-  res.status(200).json({ message: 'Hello, world!' })
-})
-
 app.get('/byebyeWorld', (req, res) => {
   res.status(200).json({ message: 'Bye Bye, World!' })
 })
